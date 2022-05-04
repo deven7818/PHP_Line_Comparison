@@ -1,9 +1,10 @@
 <?php
 
 /**
- * Uc-1
+ * Uc-2
  * Program for Line Comparison computation
  * from co-cordinates calculate length
+ * Compare two line using end points
  */
 class LineComparision
 {
@@ -39,7 +40,7 @@ class LineComparision
         echo "\nresult is : " . $this->result;
 
     }
-
+    //Function to compare two line are equals are not
     function lineCompare(){
          echo "\nEnter values for line 1";
          $this->line1 = $this->userInput();
