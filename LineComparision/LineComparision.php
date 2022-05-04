@@ -1,10 +1,11 @@
 <?php
 
 /**
- * Uc-2
+ * Uc-3
  * Program for Line Comparison computation
  * from co-cordinates calculate length
  * Compare two line using end points
+ * comparing two lines and checking lines are equals, greater or less than other 
  */
 class LineComparision
 {
@@ -50,8 +51,10 @@ class LineComparision
 
         if($this->line1 == $this->line2){
             echo "\nBoth lines are euqals";
-        }else{
-            echo "\nLines are not equals";
+        }else if($this->line1 > $this->line2){
+            echo "\nLine 1 is greater than line 2.";
+        }else {
+            echo "\nLine 2 is greater than line 1";
         }
 
         
